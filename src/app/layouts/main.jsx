@@ -1,5 +1,5 @@
 import React from "react";
-import Title from "../components/common/typografy/title";
+import Title from "../components/common/typography/title";
 
 const Main = () => {
     return (

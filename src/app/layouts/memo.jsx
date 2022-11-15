@@ -5,10 +5,10 @@ import MemoWithUseCallbackExample from "../components/examples/memo/memoWithUseC
 import { Link } from "react-router-dom";
 import MemoDependencyFunctionExample from "../components/examples/memo/memoDependencyFunctionExample";
 import BlockQuoteWrapper from "../components/common/blockQuote";
-import Title from "../components/common/typografy/title";
+import Title from "../components/common/typography/title";
 import Divider from "../components/common/divider";
-import Subtitle from "../components/common/typografy/subtitle";
-import SmallTitle from "../components/common/typografy/smallTitle";
+import Subtitle from "../components/common/typography/subtitle";
+import SmallTitle from "../components/common/typography/smallTitle";
 const MemoExample = () => {
     return (
         <>

@@ -2,8 +2,8 @@ import React from "react";
 import CollapseWrapper from "../components/common/collapse";
 import ComplexCalculateExample from "../components/examples/useMemo/complexCalculate";
 import BlockQuote from "../components/common/blockQuote";
-import Title from "../components/common/typografy/title";
-import Subtitle from "../components/common/typografy/subtitle";
+import Title from "../components/common/typography/title";
+import Subtitle from "../components/common/typography/subtitle";
 import Divider from "../components/common/divider";
 const UseMemoExample = () => {
     return (

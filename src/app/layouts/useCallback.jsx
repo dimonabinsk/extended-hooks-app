@@ -4,8 +4,8 @@ import UseCallBackExample from "../components/examples/useCallback/useCallBackEx
 import BlockQuoteWrapper from "../components/common/blockQuote";
 import CardWrapper from "../components/common/Card";
 import Divider from "../components/common/divider";
-import Title from "../components/common/typografy/title";
-import Subtitle from "../components/common/typografy/subtitle";
+import Title from "../components/common/typography/title";
+import Subtitle from "../components/common/typography/subtitle";
 
 const UseCallbackExample = () => {
     return (

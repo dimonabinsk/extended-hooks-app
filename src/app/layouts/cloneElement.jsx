@@ -3,9 +3,9 @@ import BlockQuote from "../components/common/blockQuote";
 import CardWrapper from "../components/common/Card";
 import CollapseWrapper from "../components/common/collapse";
 import Divider from "../components/common/divider";
-import SmallTitle from "../components/common/typografy/smallTitle";
-import Subtitle from "../components/common/typografy/subtitle";
-import Title from "../components/common/typografy/title";
+import SmallTitle from "../components/common/typography/smallTitle";
+import Subtitle from "../components/common/typography/subtitle";
+import Title from "../components/common/typography/title";
 import CloneElementExample from "../components/examples/cloneElement/cloneElementExample";
 const CloneElement = () => {
     return (

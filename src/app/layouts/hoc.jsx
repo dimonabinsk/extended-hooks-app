@@ -4,8 +4,8 @@ import HOCExample from "../components/examples/hoc/hocExample";
 import CardWrapper from "../components/common/Card";
 import HocExercise from "../components/exercises/hocExercise";
 import BlockQuoteWrapper from "../components/common/blockQuote";
-import Title from "../components/common/typografy/title";
-import Subtitle from "../components/common/typografy/subtitle";
+import Title from "../components/common/typography/title";
+import Subtitle from "../components/common/typography/subtitle";
 import Divider from "../components/common/divider";
 const HOCLayout = () => {
     return (

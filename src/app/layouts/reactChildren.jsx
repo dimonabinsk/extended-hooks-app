@@ -4,7 +4,7 @@ import CardWrapper from "../components/common/Card";
 
 import CollapseWrapper from "../components/common/collapse";
 import Divider from "../components/common/divider";
-import Subtitle from "../components/common/typografy/subtitle";
+import Subtitle from "../components/common/typography/subtitle";
 import ReactChildrenExample from "../components/examples/children/reactChildrenExample";
 import ChildrenExercise from "../components/exercises/childrenExercise";
 const ReactChildren = () => {
