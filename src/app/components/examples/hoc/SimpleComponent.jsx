@@ -1,10 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const SimpleComponent = ({ onLogin, onLogOut, isAuth }) => {
+const SimpleComponent = ({ onLogin, onLogOut, isFlag }) => {
+    // console.log(isFlag);
     return (
         <>
-            {!isAuth ? (
+            {!isFlag ? (
                 <button onClick={onLogin} className={"btn btn-primary"}>
                     Войти
                 </button>
@@ -19,8 +20,8 @@ const SimpleComponent = ({ onLogin, onLogOut, isAuth }) => {
 
 SimpleComponent.propTypes = {
     onLogin: PropTypes.func.isRequired,
-    onLogOut: PropTypes.func,
-    isAuth: PropTypes.string
+    onLogOut: PropTypes.func.isRequired,
+    isFlag: PropTypes.bool.isRequired
 };
 
 export default SimpleComponent;
